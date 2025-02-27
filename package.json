@@ -1,0 +1,61 @@
+{
+  "name": "simplicity-react",
+  "version": "2.1.0",
+  "private": true,
+  "author": "Creative Tim, Atai, Ali",
+  "description": "Simplicity react project",
+  "homepage": "https://atai-mamytov.click/nest24/simplicity",
+  "dependencies": {
+    "@emotion/react": "11.10.6",
+    "@emotion/styled": "11.10.6",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "5.12.0",
+    "@reduxjs/toolkit": "^2.5.1",
+    "axios": "^1.7.9",
+    "chroma-js": "2.4.2",
+    "date-fns": "^4.1.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-countup": "6.4.2",
+    "react-dom": "18.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "6.10.0",
+    "react-scripts": "5.0.1",
+    "redux-persist": "^6.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src",
+    "prettify": "prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4",
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "prettier": "2.8.7"
+  }
+}
